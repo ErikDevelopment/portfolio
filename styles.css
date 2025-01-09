@@ -178,3 +178,16 @@ span img {
 	--cdhs-blur: 0;
 	--cdhs-blur-amount: 5px
 }
+
+/* Grid-Elemente */
+.react-grid-item-ho {
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover-Effekt */
+.react-grid-item-ho:hover {
+    transform: scale(1.02); /* Vergrößert das Element */
+    box-shadow: 0 4px 20px rgba(255, 0, 200, 0.2); /* Fügt einen Schatten hinzu */
+}
